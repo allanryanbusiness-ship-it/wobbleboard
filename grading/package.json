@@ -1,0 +1,10 @@
+{
+  "name": "wobbleboard-grading",
+  "private": true,
+  "type": "module",
+  "description": "Answer-key packages used only to grade the rebuilt code",
+  "dependencies": {
+    "perfect-freehand": "1.2.0",
+    "roughjs": "4.6.4"
+  }
+}

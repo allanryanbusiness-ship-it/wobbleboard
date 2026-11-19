@@ -1,0 +1,25 @@
+{
+  "name": "wobbleboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small hand-drawn whiteboard whose sketchy drawing engine was rebuilt from Excalidraw's minified bundle and graded against the open-source originals.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://allanryanbusiness-ship-it.github.io/wobbleboard/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanryanbusiness-ship-it/wobbleboard.git"
+  },
+  "bugs": "https://github.com/allanryanbusiness-ship-it/wobbleboard/issues",
+  "bin": {
+    "wobbleboard": "tools/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node tests/run.mjs",
+    "grade": "cd grading && npm ci && node grade-rough.mjs && node grade-freehand.mjs && node grade-layer.mjs"
+  }
+}
